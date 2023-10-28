@@ -1,6 +1,6 @@
 /*!
  * Select2 4.0.6-rc.1
- * https://select2.github.io
+ * https://select2.github.i
  *
  * With a fix by Elementor team at line 4329 and 5449
  *
