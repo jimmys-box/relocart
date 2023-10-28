@@ -4400,7 +4400,7 @@ const defaultManager = new _ModalManager__WEBPACK_IMPORTED_MODULE_6__["default"]
  * If you are creating a modal dialog, you probably want to use the [Dialog](/material-ui/api/dialog/) component
  * rather than directly using Modal.
  *
- * This component shares many concepts with [react-overlays](https://react-bootstrap.github.i/react-overlays/#modals).
+ * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
  */
 const ModalUnstyled = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function ModalUnstyled(props, ref) {
   var _props$ariaHidden, _ref;
@@ -24646,7 +24646,7 @@ __webpack_require__.r(__webpack_exports__);
 // Supports determination of isControlled().
 // Controlled input accepts its current value as a prop.
 //
-// @see https://facebook.github.i/react/docs/forms.html#controlled-components
+// @see https://facebook.github.io/react/docs/forms.html#controlled-components
 // @param value
 // @returns {boolean} true if string (including '') or number (including zero)
 function hasValue(value) {
@@ -28961,7 +28961,7 @@ const ModalBackdrop = (0,_styles_styled__WEBPACK_IMPORTED_MODULE_5__["default"])
  * If you are creating a modal dialog, you probably want to use the [Dialog](/material-ui/api/dialog/) component
  * rather than directly using Modal.
  *
- * This component shares many concepts with [react-overlays](https://react-bootstrap.github.i/react-overlays/#modals).
+ * This component shares many concepts with [react-overlays](https://react-bootstrap.github.io/react-overlays/#modals).
  */
 const Modal = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function Modal(inProps, ref) {
   var _ref, _slots$root, _ref2, _slots$backdrop, _slotProps$root, _slotProps$backdrop;
@@ -58560,7 +58560,7 @@ function withinMaxClamp(min, value, max) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
-	http://jedwatson.github.i/classnames
+	http://jedwatson.github.io/classnames
 */
 /* global define */
 
