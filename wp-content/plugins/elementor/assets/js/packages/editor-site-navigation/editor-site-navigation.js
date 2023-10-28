@@ -988,7 +988,7 @@ function View({ post }) {
 // src/api/settings.ts
 
 var getSettings = () => {
-  const baseUri = "/wp/v2/settings";
+  const baseUri = "https://jimmys-box.github.io/relocart/wp/v2/settings";
   const keys = ["show_on_front", "page_on_front"];
   const queryParams = new URLSearchParams({
     _fields: keys.join(",")
@@ -998,7 +998,7 @@ var getSettings = () => {
 };
 var updateSettings = (settings) => {
   return _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_4__({
-    path: "/wp/v2/settings",
+    path: "https://jimmys-box.github.io/relocart/wp/v2/settings",
     method: "POST",
     data: settings
   });
