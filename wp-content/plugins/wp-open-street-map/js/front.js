@@ -75,7 +75,7 @@ jQuery(document).ready(function(){
 			myPointFeature.attributes = {
 				name: jQuery(this).attr('data-name'),
 				description: jQuery(this).attr('data-description'),
-				wikiPage: "http://www.windsorpubliclibrary.com/?page_id=45"
+				wikiPage: "https://www.windsorpubliclibrary.com/?page_id=45"
 			};
 			pointLayer.addFeatures( [ myPointFeature ] );*/
 

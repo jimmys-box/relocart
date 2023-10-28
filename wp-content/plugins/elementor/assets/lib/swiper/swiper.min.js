@@ -1,7 +1,7 @@
 /**
  * Swiper 5.3.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://swiperjs.com
+ * https://swiperjs.com
  *
  * Copyright 2014-2020 Vladimir Kharlampidi
  *

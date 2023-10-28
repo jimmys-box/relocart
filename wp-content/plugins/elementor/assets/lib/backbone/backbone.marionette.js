@@ -8,7 +8,7 @@
 // Copyright (c)2016 Derick Bailey, Muted Solutions, LLC.
 // Distributed under MIT license
 //
-// http://marionettejs.com
+// https://marionettejs.com
 
 
 /*!
@@ -46,7 +46,7 @@
   // Copyright (c)2016 Derick Bailey, Muted Solutions, LLC.
   // Distributed under MIT license
   //
-  // http://github.com/marionettejs/backbone.babysitter
+  // https://github.com/marionettejs/backbone.babysitter
   (function(Backbone, _) {
     "use strict";
     var previousChildViewContainer = Backbone.ChildViewContainer;
@@ -155,7 +155,7 @@
         }
       });
       // Borrowing this code from Backbone.Collection:
-      // http://backbonejs.org/docs/backbone.html#section-106
+      // https://backbonejs.org/docs/backbone.html#section-106
       //
       // Mix in methods from Underscore, for iteration, and other
       // collection related features.
@@ -186,7 +186,7 @@
   // Copyright (c)2016 Derick Bailey, Muted Solutions, LLC.
   // Distributed under MIT license
   //
-  // http://github.com/marionettejs/backbone.wreqr
+  // https://github.com/marionettejs/backbone.wreqr
   (function(Backbone, _) {
     "use strict";
     var previousWreqr = Backbone.Wreqr;
@@ -621,7 +621,7 @@
   // Mix in methods from Underscore, for iteration, and other
   // collection related features.
   // Borrowing this code from Backbone.Collection:
-  // http://backbonejs.org/docs/backbone.html#section-121
+  // https://backbonejs.org/docs/backbone.html#section-121
   Marionette.actAsCollection = function(object, listProperty) {
     var methods = ['forEach', 'each', 'map', 'find', 'detect', 'filter',
       'select', 'reject', 'every', 'all', 'some', 'any', 'include',
@@ -879,7 +879,7 @@
   var errorProps = ['description', 'fileName', 'lineNumber', 'name', 'message', 'number'];
   
   Marionette.Error = Marionette.extend.call(Error, {
-    urlRoot: 'http://marionettejs.com/docs/v' + Marionette.VERSION + '/',
+    urlRoot: 'https://marionettejs.com/docs/v' + Marionette.VERSION + '/',
   
     constructor: function(message, options) {
       if (_.isObject(message)) {
@@ -1059,7 +1059,7 @@
   // ------
   
   // Manage the visual regions of your composite application. See
-  // http://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/
+  // https://lostechies.com/derickbailey/2011/12/12/composite-js-apps-regions-and-region-managers/
   
   Marionette.Region = Marionette.Object.extend({
     constructor: function(options) {
@@ -3335,7 +3335,7 @@
             // Set event name to be namespaced using the view cid,
             // the behavior index, and the behavior event index
             // to generate a non colliding event namespace
-            // http://api.jquery.com/event.namespace/
+            // https://api.jquery.com/event.namespace/
             var eventName = match[1] + '.' + [this.cid, i, j++, ' '].join('');
             var selector  = match[2];
   

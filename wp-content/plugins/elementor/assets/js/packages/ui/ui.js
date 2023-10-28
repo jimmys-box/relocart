@@ -7392,7 +7392,7 @@ const Accordion = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(fun
   TransitionComponent: (prop_types__WEBPACK_IMPORTED_MODULE_15___default().elementType),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_15___default().object)
 } : 0;
@@ -17140,7 +17140,7 @@ const Dialog = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(functi
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().object)
 } : 0;
@@ -27916,7 +27916,7 @@ const Menu = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    * @default {}
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_14___default().object),
@@ -31696,7 +31696,7 @@ const Popover = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(funct
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    * @default {}
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_18___default().object)
@@ -36180,7 +36180,7 @@ const Snackbar = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(func
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    * @default {}
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_15___default().object)
@@ -36961,7 +36961,7 @@ const SpeedDial = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(fun
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().object)
 } : 0;
@@ -38562,7 +38562,7 @@ const StepContent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(f
   })]),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_12___default().object)
 } : 0;
@@ -46429,7 +46429,7 @@ const Tooltip = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(funct
   TransitionComponent: (prop_types__WEBPACK_IMPORTED_MODULE_20___default().elementType),
   /**
    * Props applied to the transition element.
-   * By default, the element is based on this [`Transition`](http://reactcommunity.org/react-transition-group/transition/) component.
+   * By default, the element is based on this [`Transition`](https://reactcommunity.org/react-transition-group/transition/) component.
    */
   TransitionProps: (prop_types__WEBPACK_IMPORTED_MODULE_20___default().object)
 } : 0;
@@ -58560,7 +58560,7 @@ function withinMaxClamp(min, value, max) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
-	http://jedwatson.github.io/classnames
+	https://jedwatson.github.io/classnames
 */
 /* global define */
 
@@ -58652,7 +58652,7 @@ function r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else i
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -59812,7 +59812,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -60258,7 +60258,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}

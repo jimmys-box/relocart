@@ -10155,10 +10155,10 @@ function useColors() {
 		return false;
 	}
 
-	// Is webkit? http://stackoverflow.com/a/16459606/376773
+	// Is webkit? https://stackoverflow.com/a/16459606/376773
 	// document is undefined in react-native: https://github.com/facebook/react-native/pull/1632
 	return (typeof document !== 'undefined' && document.documentElement && document.documentElement.style && document.documentElement.style.WebkitAppearance) ||
-		// Is firebug? http://stackoverflow.com/a/398120/376773
+		// Is firebug? https://stackoverflow.com/a/398120/376773
 		(typeof window !== 'undefined' && window.console && (window.console.firebug || (window.console.exception && window.console.table))) ||
 		// Is firefox >= v31?
 		// https://developer.mozilla.org/en-US/docs/Tools/Web_Console#Styling_messages
@@ -10719,7 +10719,7 @@ module.exports = function extend() {
   \****************************************************/
 /***/ ((module) => {
 
-// http://www.w3.org/TR/CSS21/grammar.html
+// https://www.w3.org/TR/CSS21/grammar.html
 // https://github.com/visionmedia/css-parse/pull/49#issuecomment-30088027
 var COMMENT_REGEX = /\/\*[^*]*\*+([^/*][^*]*\*+)*\//g;
 
@@ -11584,7 +11584,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -12030,7 +12030,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
@@ -15946,8 +15946,8 @@ var Canvas = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(function
   }, react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
     version: "1.1",
     baseProfile: "full",
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    xmlns: "https://www.w3.org/2000/svg",
+    xmlnsXlink: "https://www.w3.org/1999/xlink",
     style: _extends({
       width: '100%',
       height: '100%'
@@ -19077,7 +19077,7 @@ function calcOldNewLineCount(lines) {
   };
 }
 
-// See: http://code.google.com/p/google-diff-match-patch/wiki/API
+// See: https://code.google.com/p/google-diff-match-patch/wiki/API
 function convertChangesToDMP(changes) {
   var ret = [],
       change,

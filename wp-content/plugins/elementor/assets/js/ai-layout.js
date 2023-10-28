@@ -3826,7 +3826,7 @@ async function ensureSVGSymbols(clone, options) {
     }
     const nodes = Object.values(processedDefs);
     if (nodes.length) {
-        const ns = 'http://www.w3.org/1999/xhtml';
+        const ns = 'https://www.w3.org/1999/xhtml';
         const svg = document.createElementNS(ns, 'svg');
         svg.setAttribute('xmlns', ns);
         svg.style.position = 'absolute';
@@ -4547,7 +4547,7 @@ const uuid = (() => {
     // generate uuid for className of pseudo elements.
     // We should not use GUIDs, otherwise pseudo elements sometimes cannot be captured.
     let counter = 0;
-    // ref: http://stackoverflow.com/a/6248722/2519373
+    // ref: https://stackoverflow.com/a/6248722/2519373
     const random = () => 
     // eslint-disable-next-line no-bitwise
     `0000${((Math.random() * 36 ** 4) << 0).toString(36)}`.slice(-4);
@@ -4672,7 +4672,7 @@ async function svgToDataURL(svg) {
         .then((html) => `data:image/svg+xml;charset=utf-8,${html}`);
 }
 async function nodeToDataURL(node, width, height) {
-    const xmlns = 'http://www.w3.org/2000/svg';
+    const xmlns = 'https://www.w3.org/2000/svg';
     const svg = document.createElementNS(xmlns, 'svg');
     const foreignObject = document.createElementNS(xmlns, 'foreignObject');
     svg.setAttribute('width', `${width}`);
@@ -5107,7 +5107,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -5553,7 +5553,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}

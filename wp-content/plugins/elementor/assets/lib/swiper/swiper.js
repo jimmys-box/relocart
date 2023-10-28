@@ -1,7 +1,7 @@
 /**
  * Swiper 5.3.6
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://swiperjs.com
+ * https://swiperjs.com
  *
  * Copyright 2014-2020 Vladimir Kharlampidi
  *
@@ -92,11 +92,11 @@
   /**
    * Dom7 2.1.3
    * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
-   * http://framework7.io/docs/dom.html
+   * https://framework7.io/docs/dom.html
    *
    * Copyright 2019, Vladimir Kharlampidi
    * The iDangero.us
-   * http://www.idangero.us/
+   * https://www.idangero.us/
    *
    * Licensed under MIT
    *
@@ -4956,7 +4956,7 @@
       && doc.implementation
       && doc.implementation.hasFeature
       // always returns true in newer browsers as per the standard.
-      // @see http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature
+      // @see https://dom.spec.whatwg.org/#dom-domimplementation-hasfeature
       && doc.implementation.hasFeature('', '') !== true
     ) {
       // This is the only way to test support for the `wheel` event in IE9+.

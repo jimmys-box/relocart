@@ -217,7 +217,7 @@ class IconsManager {
       props = {},
       attrs = {}
     } = _ref2;
-    const node = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    const node = document.createElementNS('https://www.w3.org/2000/svg', tag);
     Object.keys(props).map(key => node[key] = props[key]);
     Object.keys(attrs).map(key => node.setAttributeNS(null, key, attrs[key]));
     return node;
